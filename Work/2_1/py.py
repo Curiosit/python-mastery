@@ -1,2 +1,5 @@
+
+import tracemalloc
 f = open('ctabus.csv')
-next(f)
+tracemalloc.start()
+data = f.read()
